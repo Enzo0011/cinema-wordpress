@@ -1,0 +1,46 @@
+.pagination * {
+  display: inline-block;
+  padding: 0 10px;
+  border: 1px solid #000;
+  margin: 0 5px;
+}
+.pagination {
+  margin: 20px 0;
+}
+.headerImage {
+  height: 400px;
+  width: 100%;
+}
+.headerImage h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  min-width: 12rem;
+  z-index: 1000;
+  right: 0;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.dropdown-menu.active a {
+  background-color: #1a202c;
+}
+
+.dropdown-menu.active {
+  display: block;
+}
