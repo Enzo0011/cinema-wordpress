@@ -8,4 +8,4 @@ Change `wp-config.sql`
 
 Go `http://localhost/wp-admin`
 
-LOGIN : `email@gmail.com:pass1234`
+LOGIN : `enzo@gmail.com:pass1234`
